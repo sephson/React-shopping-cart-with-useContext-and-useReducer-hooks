@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #242424;
+  height: 4rem;
+}
+
+ul.nav-list {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 3rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.store {
+  padding: 1rem 3rem;
+}
+
+.nobtn {
+  display: none;
+}
+.products {
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #e2e2e2;
+  padding: 0.7rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  height: 10rem;
+}
+
+.price {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+.addbtn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: tomato;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #e2e2e2;
+  width: 3.6rem;
+}
+
+.addbtn:hover {
+  background-color: rgb(179, 27, 0);
+}
+
+.item-header {
+  margin-top: 1rem;
+}
+
+.cart-item {
+  background-color: #e2e2e2;
+  padding: 0.7rem;
+  width: 13rem;
+  border-radius: 0.5rem;
+  height: 13rem;
+}
+
+.cart-cart {
+  margin-bottom: 1rem;
+}
+
+.cart {
+  padding: 1rem 3rem;
+}
+
+.cart-products {
+}
+
+.cart-ops {
+  padding: 1rem 0;
+}
+
+.butt {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.6rem;
+}
+
+.increase {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: green;
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.increase:hover {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 32, 0);
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+.decrease {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: tomato;
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.decrease:hover {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(114, 18, 1);
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.rmbtn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #242424;
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.rmbtn:hover {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #a3a3a3;
+  color: #e2e2e2;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.sum {
+  margin-top: 2rem;
+}
